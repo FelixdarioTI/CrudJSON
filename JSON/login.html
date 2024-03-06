@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/pizza-1920w.webp">
+    <title>Sergio's</title>
+</head>
+<body bgcolor="#000">
+      <center>
+        <header>
+            <div id = "title">
+            <a href="loja.html"><img src="images/logo-sergios.png" alt="Logo Sergio's" width="200px"height="-200px"></a>
+            </div>
+    
+          </header>
+          
+        <div class="card">
+        <div class="input-todoslogin">
+        <div class="input-group">
+         <div class="nome-todo">
+          <div class="input-group">
+           <div id="login">
+            <br><h1 style="margin-left: 20px;margin: 20px;">Login</h1>
+             <div class="form__groupu field">
+                <input type="input" id="loginUser" class="form__field" placeholder="Usuário" required="">
+                <label for="user" class="form__label">Usuário</label>
+            </div>
+            <div class="form__groups field">
+                <input type="password" id="loginSenha" class="form__field" placeholder="Senha" required="">
+                <label for="senha" class="form__label">Senha</label>
+            </div>
+                 <i style="margin-right: 335px;margin-top: 5px;height: -3px;width: 3px;" class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenhalogin()"></i>
+                 <div></div>
+             </div>
+             <button onclick="login()" class="compra-login">Login</button>
+             <a style="color: #000;" class="nlogin" href="cadastro.html" >Não tem cadastro?</a>
+         </div>
+        </div></center>
+      
+    
+         <script src="js/script.js"></script>
+</body>
+</html>

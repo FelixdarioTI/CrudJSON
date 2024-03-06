@@ -1,0 +1,86 @@
+* {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  
+  }
+  header li{
+    display: inline-block;
+  }
+  
+  header li a{
+    border-radius: 15px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+   .button button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 20px;
+    color: #E17A0A;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(205, 138, 22, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(205, 138, 22, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .button button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #E17A0A;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(205, 138, 22, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(205, 138, 22, 0.27);
+    transition: all 250ms
+   }
+   
+   .button button:hover {
+    color: #e8e8e8;
+   }
+   
+   .button button:hover::before {
+    width: 100%;
+   }
+   .cadastro{
+    margin-left: 1400px;
+    margin-top: -200px;
+  }
+  main{
+    margin-left: 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.imagem img {
+    margin-left: 80px;
+    width: 700px;
+    height: 400px;
+}
+h2{
+    font-size: 32px;
+    line-height: 10px;
+    margin-top: 0px;
+
+}
+span{
+    color: #E17A0A;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+}

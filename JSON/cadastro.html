@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/pizza-1920w.webp">
+    <title>Sergio's</title>
+</head>
+<body bgcolor="#000">
+      <center>
+        <header>
+            <div id = "title">
+            <a href="loja.html"><img src="images/logo-sergios.png" alt="Logo Sergio's" width="200px"height="-200px"></a>
+            </div>
+    
+          </header>
+          
+        <div class="card">
+        <div class="input-todoslogin">
+        <div class="input-group">
+         <div class="nome-todo">
+          <div class="input-group">
+           <div id="login">
+           <br> <h1 style="margin-left: 20px;margin: 20px;">Cadastro</h1>
+             <div style="margin-left: -500px;margin-top: -30px;" class="form__group field">
+                <input type="input" id="cadastroNome" class="form__field" placeholder="Nome" required="">
+                <label for="nome" class="form__label">Nome</label>
+            </div>
+            <div style="margin-left: 300px;margin-top: -57px;" class="form__group field">
+                <input type="input" id="cadastroUser" class="form__field" placeholder="Usuário" required="">
+                <label for="user" class="form__label">Usuário</label>
+            </div>
+            <div style="margin-left: -500px;margin-top: 10px;" class="form__group field">
+                <input type="email" id="cadastroEmail" class="form__field" placeholder="Email" required="">
+                <label for="email" class="form__label">Email</label>
+            </div>
+            <div style="margin-left: 300px;margin-top: -56px;" class="form__group field">
+                <input type="number" id="cadastroTelefone" class="form__field" placeholder="Telefone" required="">
+                <label for="tel" class="form__label">Telefone</label>
+            </div>
+            <div style="margin-top: 10px;" class="form__groupend field">
+                <input style="width: 660px;" type="input" id="end" class="form__field" placeholder="Endereço" required="">
+                <label for="end" class="form__label">Endereço</label>
+            </div>
+            <div style="margin-left: -500px;margin-top: 6px;" class="form__group field">
+                <input type="number" id="cep" class="form__field" placeholder="Cep" required="">
+                <label for="cep" class="form__label">Cep</label>
+            </div>
+            <div style="margin-left: 300px;margin-top: -56px;" class="form__group field">
+                <input type="input" id="comp" class="form__field" placeholder="Complemento" required="">
+                <label for="comp" class="form__label">Complemento</label>
+            </div>
+            <div style="margin-top: 20px;" class="form__groupse field">
+                <input style="width: 660px;" type="password" id="cadastroSenha" class="form__field" placeholder="Senha" required="">
+                <label for="senha" class="form__label">Senha</label>
+            </div>
+                 <i style="margin-right: 335px;margin-top: 5px;height: -3px;width: 3px;" class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenhalogin()"></i>
+                 <div></div>
+             </div>
+             <button onclick="cadastrar()"  class="compra-login">Cadastrar-se</button>
+         </div>
+        </div></center>
+      
+    
+         <script src="js/script.js"></script>
+</body>
+</html>
